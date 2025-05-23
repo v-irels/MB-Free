@@ -72,7 +72,7 @@ The package contains two essential files:
 ## Discord 
 
 *Join the CTRL Boost community for support and updates!*  
-[Insert your Discord invite link here]
+(https://discord.gg/7KCWNccRUe)
 
 ---
 
