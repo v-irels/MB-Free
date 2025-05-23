@@ -1,108 +1,44 @@
-# CTRL Boost
-
-## What is CTRL Boost?
-
-CTRL Boost is a modern, Python-based desktop application designed to help you optimize your Windows PC performance easily through a clean, floating GUI. It offers:
-
-- Over 60 real, working performance tweaks  
-- Toggle switches grouped by categories: General, Games, Internet, Storage, Memory  
-- Built-in RAM cleaner and system optimization tools  
-- Preset profiles for quick tuning: Desktop, Laptop, Balanced  
-- Ice-blue & purple themed UI with smooth animations and helpful tooltips  
-- Runs with administrator privileges to apply system tweaks seamlessly  
+# CTRL Boost - Performance Tweaks
 
 ---
 
-## Package Contents
+# Discord
 
-- `CTRLBoostApp.py` — Main Python application with Tkinter GUI, toggle controls, and tweak logic  
-- (Optional) `requirements.txt` — Python dependencies, if any  
+Join our Discord for support and updates:  
+https://discord.gg/7KCWNccRUe
 
 ---
 
-## How to Use
+# Instructions
 
-1. Install Python 3.x on your Windows PC (download from python.org).  
-2. Run the app by opening a terminal and executing:  
-   ```bash
-   python CTRLBoostApp.py
-Alternatively, double-click the .py file if Python file association is configured.
-3. Run the app with administrator privileges (required for most tweaks):
+1. **Requirements:**
+   - Python 3.x installed on your system
+   - Tkinter module (usually included with Python by default)
 
-Open Command Prompt as Administrator
+2. **How to run:**
+   - Download or clone the repository containing this script.
+   - Open a terminal or command prompt in the script folder.
+   - Run the command:
+     ```
+     python ctrl_boost.py
+     ```
+   - The CTRL Boost GUI window will open.
 
-Navigate to the app folder
+3. **Usage:**
+   - Use the tabs to browse different categories of performance tweaks.
+   - Check or uncheck options to enable or disable tweaks.
+   - Use the "Home" tab to select presets like Desktop, Balanced, or Laptop for quick setup.
+   - Click "Join Discord" button on the Home tab to visit the Discord community.
+   - Tooltips provide explanations for each tweak when you hover over them.
+   - Presets automatically toggle relevant tweaks for common use cases.
 
-Run python CTRLBoostApp.py
+4. **Notes:**
+   - This script currently provides UI and toggle controls but does not apply system changes automatically.
+   - Run the script with administrator privileges for full tweak application if extended in the future.
 
-Use the tabs to toggle tweaks on or off.
+---
 
-Select preset profiles from the Home tab to apply recommended settings quickly.
+# Credits
 
-View slideout notifications on the bottom-right for feedback.
-
-Features and Categories
-General
-System-wide performance improvements
-
-Startup optimizations
-
-Games
-Game mode tweaks
-
-GPU priority adjustments
-
-Internet
-Network latency and bandwidth optimizations
-
-Storage
-Disk performance enhancements
-
-Memory
-RAM cleaning and memory management
-
-Why Use CTRL Boost?
-User-friendly GUI with no command-line needed after launch
-
-Preset profiles simplify tuning for different hardware types
-
-Tooltips explain each tweak clearly
-
-Written in Python for portability and ease of extension
-
-Modern, clean design that is easy on the eyes
-
-Troubleshooting
-Issue	Solution
-Tweaks don’t apply	Run the app as Administrator
-Tooltips not visible	Ensure your OS supports Tkinter tooltips
-Startup errors	Verify Python 3.x installation
-
-Future Plans
-Add real-time system monitoring (CPU, RAM, FPS)
-
-Provide a portable .exe version with auto admin elevation
-
-Support user profiles with export/import presets
-
-Advanced game detection and launch with custom tweaks
-
-Join the Community
-Join our Discord server to share feedback, get support, and discuss ideas!
-[Discord Invite Link Here]
-
-Color Scheme (for branding and UI)
-Name	Hex	Usage
-Deep Space Blue	#0F172A	Background
-Electric Purple	#7B5FFF	Buttons, Highlights
-Ice Blue	#6AC1FF	Text, Accents
-Soft White	#E0E7FF	Secondary Text
-
-Credits
-Created by the CTRL Boost team.
-Your friendly performance tuning assistant.
-
-Enjoy your optimized PC experience with CTRL Boost.
-
-Copy
-Edit
+Created by Virels  
+Thanks for using CTRL Boost!  
