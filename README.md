@@ -1,83 +1,112 @@
-# CTRL - Boost
+# ██████╗ ███████╗████████╗██╗      ██████╗  ██████╗ ███████╗
+# ██╔══██╗██╔════╝╚══██╔══╝██║     ██╔═══██╗██╔════╝ ██╔════╝
+# ██████╔╝█████╗     ██║   ██║     ██║   ██║██║  ███╗█████╗  
+# ██╔═══╝ ██╔══╝     ██║   ██║     ██║   ██║██║   ██║██╔══╝  
+# ██║     ███████╗   ██║   ███████╗╚██████╔╝╚██████╔╝███████╗
+# ╚═╝     ╚══════╝   ╚═╝   ╚══════╝ ╚═════╝  ╚═════╝ ╚══════╝
 
-[![PowerShell](https://img.shields.io/badge/PowerShell-Enabled-blue?logo=powershell)](https://docs.microsoft.com/powershell/)  
-[![Platform](https://img.shields.io/badge/Platform-Cross--Platform-lightgrey)](#)  
+# CTRL - Boost ⚡
 
----
-
-## What is CTRL - Boost?
-
-**CTRL - Boost** is a PowerShell-based performance enhancer that applies a suite of system tweaks to maximize FPS, reduce latency, clean RAM, and optimize system resources — all with a single click!
-
-The package contains two essential files:  
-
-- `CTRLBoost.ps1` — The core PowerShell script applying tweaks and launching target applications.  
-- `RunCTRLBoost.bat` — A convenient batch launcher that runs the PowerShell script with elevated Administrator privileges.
+![PowerShell](https://img.shields.io/badge/PowerShell-Enabled-blue?logo=powershell)  
+![Platform](https://img.shields.io/badge/Platform-Cross--Platform-lightgrey)  
+![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
 
-## How to Use
+## 🎯 What is **CTRL - Boost**?
 
-1. **Keep `RunCTRLBoost.bat` and `CTRLBoost.ps1` in the *same folder*.**  
-   Do not separate or move one without the other.
+**CTRL - Boost** is a powerful, PowerShell-based performance enhancer designed to:
 
-2. **Run `RunCTRLBoost.bat` by double-clicking it.**  
-   This batch file:
-   - Automatically runs the PowerShell script as Administrator.  
-   - Displays a console window showing progress and messages.  
-   - Keeps the window open until you press any key.
+- 🚀 Maximize your FPS  
+- ⚡ Reduce input and network latency  
+- 🧹 Clean and optimize RAM usage  
+- 🔧 Apply system-level tweaks seamlessly  
 
-3. **Administrator permissions are required.**  
-   The script needs Admin rights to apply system tweaks successfully. If you don't run the batch file as Admin, it will prompt or fail to apply some changes.
+All with **one click**, boosting your PC’s gaming and general performance effortlessly!
 
 ---
 
-## Why this Setup?
+## 📂 Package Contents
 
-- **PowerShell scripts (`.ps1`) cannot reliably be run by double-clicking in Windows** due to security policies and execution restrictions.  
-- The batch file launcher **handles launching the script with the correct execution policy and Administrator privileges** automatically.  
-- This method works **regardless of your Windows username or folder location**, making it portable and easy to use.
-
----
-
-## Additional Notes
-
-- Feel free to move the folder anywhere on your PC, but keep the `.bat` and `.ps1` files together.  
-- For easier access, create a shortcut to `RunCTRLBoost.bat` on your desktop or Start Menu.  
-- Always launch the boost using the batch file to ensure proper permissions and settings.
+- `CTRLBoost.ps1` — The core PowerShell script that applies all the tweaks and launches your target apps.  
+- `RunCTRLBoost.bat` — A batch file that runs the PowerShell script **with Administrator privileges** and proper execution policy.
 
 ---
 
-## Troubleshooting
+## 🚀 How to Use CTRL - Boost
 
-- **Script fails to apply tweaks?**  
-  Ensure you are running as Administrator.
+1. **Keep both `CTRLBoost.ps1` and `RunCTRLBoost.bat` in the same folder!**  
+   Moving one file without the other will break the setup.
 
-- **Execution policy errors?**  
-  The batch file temporarily bypasses PowerShell’s execution policy, so always run the `.bat` launcher.
+2. **Double-click `RunCTRLBoost.bat`.**  
+   This launcher:
+   - Automatically runs the PowerShell script **as Administrator**.  
+   - Shows a console window with progress updates.  
+   - Keeps the window open after completion until you press any key.
 
-- **Target application already running?**  
-  Close any running instances before launching CTRL - Boost for best results.
-
----
-
-## Future Improvements
-
-- GUI-based launcher for easier tweak selection and status feedback  
-- Portable EXE wrapper with system tray integration  
-- Custom profiles for different performance scenarios  
+3. **Make sure to run with Administrator rights.**  
+   The script needs elevated permissions to apply system tweaks successfully.
 
 ---
 
-## Discord 
+## ⚙️ Why This Setup?
 
-*Join the CTRL Boost community for support and updates!*  
-(https://discord.gg/7KCWNccRUe)
-
----
-
-## Enjoy your boosted experience with CTRL - Boost! ⚡
+- PowerShell scripts (`.ps1`) **cannot be double-clicked directly** due to Windows security restrictions.  
+- The `.bat` file **automatically elevates privileges** and bypasses execution policy restrictions safely.  
+- Works **on any Windows version and folder location** without manual configuration.  
+- Portable and user-friendly — just keep both files together!
 
 ---
 
-*Made with ❤️ by the CTRL Boost team*
+## 📌 Additional Tips
+
+- Feel free to **move the entire folder anywhere** on your PC.  
+- For quick access, create a shortcut to `RunCTRLBoost.bat` on your Desktop or Start Menu.  
+- Always launch via the batch file to avoid permission or policy issues.
+
+---
+
+## 🛠 Troubleshooting
+
+| Issue                                | Solution                                      |
+|------------------------------------|-----------------------------------------------|
+| Script fails to apply tweaks         | Run `RunCTRLBoost.bat` **as Administrator**   |
+| PowerShell execution policy errors   | Always launch the script via the `.bat` file  |
+| Target application already running   | Close any running instances before boosting   |
+
+---
+
+## 🔮 Future Plans
+
+- User-friendly **GUI launcher** with tweak selection and status indicators  
+- Portable **EXE wrapper** with system tray integration  
+- Customizable **performance profiles** for different scenarios  
+
+---
+
+## 💬 Join the Community
+
+Join our [Discord server](https://discord.gg/7KCWNccRUe) for support, updates, and to connect with fellow CTRL Boost users!
+
+---
+
+## 🎨 Color Scheme (for branding & UI)
+
+| Name          | Hex      | Usage                   |
+|---------------|----------|-------------------------|
+| Deep Space Blue | `#0F172A` | Background              |
+| Electric Purple | `#7B5FFF` | Highlights, Buttons     |
+| Ice Blue       | `#6AC1FF` | Text, Accents           |
+| Soft White     | `#E0E7FF` | Secondary Text          |
+
+---
+
+## ❤️ Credits
+
+Made with ❤️ by the **CTRL Boost team**  
+Your PC’s best friend for performance tuning!
+
+---
+
+**Enjoy your boosted experience with CTRL - Boost! ⚡**
+
