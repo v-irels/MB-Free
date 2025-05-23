@@ -20,7 +20,7 @@ https://discord.gg/7KCWNccRUe
    - Open a terminal or command prompt in the script folder.
    - Run the command:
      ```
-     python ctrl_boost.py
+     python ctrl.py
      ```
    - The CTRL Boost GUI window will open.
 
