@@ -1,106 +1,102 @@
-# CTRL
-#### Boost ⚡
+CTRL Boost ⚡
 
-![PowerShell](https://img.shields.io/badge/PowerShell-Enabled-blue?logo=powershell)  
-![Platform](https://img.shields.io/badge/Platform-Cross--Platform-lightgrey)  
-![License](https://img.shields.io/badge/License-MIT-green)
 
----
 
-## 🎯 What is **CTRL - Boost**?
 
-**CTRL - Boost** is a powerful, PowerShell-based performance enhancer designed to:
+🎯 What is CTRL Boost?
+CTRL Boost is a modern, Python-based desktop app designed to help you optimize your Windows PC performance with ease through a sleek, floating GUI featuring:
 
-- 🚀 Maximize your FPS  
-- ⚡ Reduce input and network latency  
-- 🧹 Clean and optimize RAM usage  
-- 🔧 Apply system-level tweaks seamlessly  
+🚀 60+ real, working performance tweaks
 
-All with **one click**, boosting your PC’s gaming and general performance effortlessly!
+⚡ Easy toggle switches grouped by categories (General, Games, Internet, Storage, Memory)
 
----
+🧹 Built-in RAM cleaner and system optimization tools
 
-## 📂 Package Contents
+🔧 Preset profiles to quickly apply best tweaks for Desktop, Laptop, or Balanced use
 
-- `CTRLBoost.ps1` — The core PowerShell script that applies all the tweaks and launches your target apps.  
-- `RunCTRLBoost.bat` — A batch file that runs the PowerShell script **with Administrator privileges** and proper execution policy.
+🎨 Beautiful ice-blue & purple themed UI with smooth animations and tooltips
 
----
+🔒 Runs with admin privileges to apply system tweaks seamlessly
 
-## 🚀 How to Use CTRL - Boost
+All from a simple, intuitive interface!
 
-1. **Keep both `CTRLBoost.ps1` and `RunCTRLBoost.bat` in the same folder!**  
-   Moving one file without the other will break the setup.
+📂 Package Contents
+CTRLBoostApp.py — Main Python app with Tkinter GUI, toggle controls, and tweak logic.
 
-2. **Double-click `RunCTRLBoost.bat`.**  
-   This launcher:
-   - Automatically runs the PowerShell script **as Administrator**.  
-   - Shows a console window with progress updates.  
-   - Keeps the window open after completion until you press any key.
+(Optional) requirements.txt — Python dependencies (if any, e.g., for future extensions).
 
-3. **Make sure to run with Administrator rights.**  
-   The script needs elevated permissions to apply system tweaks successfully.
+🚀 How to Use CTRL Boost
+Make sure you have Python 3.x installed on your Windows PC.
+Download from python.org.
 
----
+Run the app by opening a terminal and executing:
 
-## ⚙️ Why This Setup?
+bash
+Copy
+Edit
+python CTRLBoostApp.py
+or double-click the file if your system associates .py with Python.
 
-- PowerShell scripts (`.ps1`) **cannot be double-clicked directly** due to Windows security restrictions.  
-- The `.bat` file **automatically elevates privileges** and bypasses execution policy restrictions safely.  
-- Works **on any Windows version and folder location** without manual configuration.  
-- Portable and user-friendly — just keep both files together!
+Run the app as Administrator.
+Many tweaks require elevated privileges. To do this:
 
----
+Open Command Prompt as Administrator
 
-## 📌 Additional Tips
+Navigate to the folder containing the app
 
-- Feel free to **move the entire folder anywhere** on your PC.  
-- For quick access, create a shortcut to `RunCTRLBoost.bat` on your Desktop or Start Menu.  
-- Always launch via the batch file to avoid permission or policy issues.
+Run the app with python CTRLBoostApp.py
 
----
+Use the tabs to toggle tweaks on or off.
+Select a preset from the Home tab to quickly apply recommended settings.
 
-## 🛠 Troubleshooting
+Watch the bottom-right slideout notifications for feedback.
 
-| Issue                                | Solution                                      |
-|------------------------------------|-----------------------------------------------|
-| Script fails to apply tweaks         | Run `RunCTRLBoost.bat` **as Administrator**   |
-| PowerShell execution policy errors   | Always launch the script via the `.bat` file  |
-| Target application already running   | Close any running instances before boosting   |
+⚙️ Why CTRL Boost?
+GUI ease of use: No command line required after launching.
 
----
+Tweak presets: Simplifies complex tuning for different hardware types.
 
-## 🔮 Future Plans
+Tooltip help: Hover over any toggle to understand what it does.
 
-- User-friendly **GUI launcher** with tweak selection and status indicators  
-- Portable **EXE wrapper** with system tray integration  
-- Customizable **performance profiles** for different scenarios  
+Cross-platform Python: Easily extendable and portable.
 
----
+Visual design: A modern, clean look that’s easy on the eyes.
 
-## 💬 Join the Community
+📌 Additional Tips
+You can customize and extend the tweak logic inside the source Python file.
 
-Join our [Discord server](https://discord.gg/7KCWNccRUe) for support, updates, and to connect with fellow CTRL Boost users!
+Feel free to move the entire folder anywhere on your PC.
 
----
+For quick access, create a shortcut to the .py file or a batch file that runs it as admin.
 
-## 🎨 Color Scheme (for branding & UI)
+🛠 Troubleshooting
+Issue	Solution
+App doesn’t apply tweaks	Run the app as Administrator.
+Tooltips not showing	Make sure your OS supports Tkinter tooltips.
+Errors on startup	Ensure Python 3.x is installed correctly.
 
-| Name          | Hex      | Usage                   |
-|---------------|----------|-------------------------|
-| Deep Space Blue | `#0F172A` | Background              |
-| Electric Purple | `#7B5FFF` | Highlights, Buttons     |
-| Ice Blue       | `#6AC1FF` | Text, Accents           |
-| Soft White     | `#E0E7FF` | Secondary Text          |
+🔮 Future Plans
+Add a real-time system monitoring panel (CPU, RAM, FPS).
 
----
+Include a portable .exe version with auto admin elevation.
 
-## ❤️ Credits
+Add user-configurable profiles and export/import presets.
 
-Made with ❤️ by the **CTRL Boost team**  
-Your PC’s best friend for performance tuning!
+Implement advanced game detection & launch with custom tweaks.
 
----
+💬 Join the Community
+Join our Discord server to share feedback, get support, and discuss ideas!
 
-**Enjoy your boosted experience with CTRL - Boost! ⚡**
+🎨 Color Scheme (for branding & UI)
+Name	Hex	Usage
+Deep Space Blue	#0F172A	Background
+Electric Purple	#7B5FFF	Buttons, Highlights
+Ice Blue	#6AC1FF	Text, Accents
+Soft White	#E0E7FF	Secondary Text
+
+❤️ Credits
+Made with ❤️ by the CTRL Boost team
+Your friendly performance tuning assistant!
+
+Enjoy your optimized PC experience with CTRL Boost! ⚡
 
