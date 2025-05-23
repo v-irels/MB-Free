@@ -1,28 +1,27 @@
-# 💚 Monster Boost - Roblox Performance Enhancer 💚
+# CTRL - Boost
 
 [![PowerShell](https://img.shields.io/badge/PowerShell-Enabled-blue?logo=powershell)](https://docs.microsoft.com/powershell/)  
-[![Windows](https://img.shields.io/badge/Platform-Windows-lightgrey?logo=windows)](https://www.microsoft.com/windows)  
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Platform](https://img.shields.io/badge/Platform-Cross--Platform-lightgrey)](#)  
 
 ---
 
-## What is Monster Boost?
+## What is CTRL - Boost?
 
-**Monster Boost** is a PowerShell-based performance enhancer tailored specifically for Roblox players. It applies a suite of system tweaks to maximize FPS, reduce latency, clean RAM, and optimize system resources — all with a single click!
+**CTRL - Boost** is a PowerShell-based performance enhancer that applies a suite of system tweaks to maximize FPS, reduce latency, clean RAM, and optimize system resources — all with a single click!
 
 The package contains two essential files:  
 
-- `MonsterBoost.ps1` — The core PowerShell script applying tweaks and launching Roblox.  
-- `RunMonsterBoost.bat` — A convenient batch launcher that runs the PowerShell script with elevated Administrator privileges.
+- `CTRLBoost.ps1` — The core PowerShell script applying tweaks and launching target applications.  
+- `RunCTRLBoost.bat` — A convenient batch launcher that runs the PowerShell script with elevated Administrator privileges.
 
 ---
 
 ## How to Use
 
-1. **Keep `RunMonsterBoost.bat` and `MonsterBoost.ps1` in the *same folder*.**  
+1. **Keep `RunCTRLBoost.bat` and `CTRLBoost.ps1` in the *same folder*.**  
    Do not separate or move one without the other.
 
-2. **Run `RunMonsterBoost.bat` by double-clicking it.**  
+2. **Run `RunCTRLBoost.bat` by double-clicking it.**  
    This batch file:
    - Automatically runs the PowerShell script as Administrator.  
    - Displays a console window showing progress and messages.  
@@ -44,21 +43,21 @@ The package contains two essential files:
 ## Additional Notes
 
 - Feel free to move the folder anywhere on your PC, but keep the `.bat` and `.ps1` files together.  
-- For easier access, create a shortcut to `RunMonsterBoost.bat` on your desktop or Start Menu.  
+- For easier access, create a shortcut to `RunCTRLBoost.bat` on your desktop or Start Menu.  
 - Always launch the boost using the batch file to ensure proper permissions and settings.
 
 ---
 
 ## Troubleshooting
 
-- **Script fails to launch Roblox or apply tweaks?**  
+- **Script fails to apply tweaks?**  
   Ensure you are running as Administrator.
 
 - **Execution policy errors?**  
   The batch file temporarily bypasses PowerShell’s execution policy, so always run the `.bat` launcher.
 
-- **Roblox already running?**  
-  Close any running Roblox instances before launching Monster Boost for best results.
+- **Target application already running?**  
+  Close any running instances before launching CTRL - Boost for best results.
 
 ---
 
@@ -66,19 +65,19 @@ The package contains two essential files:
 
 - GUI-based launcher for easier tweak selection and status feedback  
 - Portable EXE wrapper with system tray integration  
-- Custom profiles for different gaming scenarios  
+- Custom profiles for different performance scenarios  
 
 ---
 
-## License
+## Discord 
 
-This project is licensed under the [MIT License](LICENSE). Feel free to use and modify it as you wish!
-
----
-
-## Enjoy your boosted Roblox experience! 💚⚡
+*Join the CTRL Boost community for support and updates!*  
+[Insert your Discord invite link here]
 
 ---
 
-*Made with ❤️ by [YourName]*
+## Enjoy your boosted experience with CTRL - Boost! ⚡
 
+---
+
+*Made with ❤️ by the CTRL Boost team*
