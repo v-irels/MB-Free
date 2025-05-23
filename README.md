@@ -1,5 +1,5 @@
-### CTRL
-# Boost ⚡
+# CTRL
+#### Boost ⚡
 
 ![PowerShell](https://img.shields.io/badge/PowerShell-Enabled-blue?logo=powershell)  
 ![Platform](https://img.shields.io/badge/Platform-Cross--Platform-lightgrey)  
